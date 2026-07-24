@@ -1,0 +1,3 @@
+---
+- name: Update hash passord on testuser user
+  import_playbook: ./playbooks/update-user-hash-password.yml
