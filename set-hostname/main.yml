@@ -1,0 +1,8 @@
+---
+  - name: Set hostname
+    ansible.builtin.import_playbook: ./playbooks/set-hostname.yaml
+  
+  - name: Reboot machine
+    ansible.builtin.import_playbook: ./playbooks/reboot-machine.yaml
+
+        
